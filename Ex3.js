@@ -1,5 +1,3 @@
-
-
 let amount=4;
 let left =0;
 let temp=0;
@@ -12,7 +10,7 @@ for(let i=0; i<amount; i++){
    console.log(temp);
    if(amount%temp==0)
    {
-     console.log('4 times 1 cent');
+     console.log(amount +' times 1 cent');
    }
 
   }
